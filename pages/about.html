@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orders</title>
+    <title>About</title>
     <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
@@ -43,7 +43,40 @@
         </div>
     </nav>
     <!--  menü  -->
-    <h1>Orders</h1>
+
+    <h1>About</h1>
+    <table>
+        <caption>Opening Hours</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">Closed</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    &copy; 2020
+                </td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
