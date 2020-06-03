@@ -1,2 +1,3 @@
 # DaemianHU.github.io
-Demo page
+Hello. My name is Peter. I want to learn HTML, CSS, Js...
+When i learn a module, i implement my knowelge to this website. I hope, i can learn as much as i can!
