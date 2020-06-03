@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Főoldal</title>
-    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 
 <body>
     <!--  menü  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/index.html">Sprint Training</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/index.html">daemianhu.github.io</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,49 +24,119 @@
                     <a class="nav-link" href="/index.html">Főoldal <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/about.html">Rólam</a>
+                    <a class="nav-link" href="/about.html">Információ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/products.html" tabindex="-1" aria-disabled="true">Termékek</a>
+                    <a class="nav-link" href="/products.html" tabindex="-1" aria-disabled="true">Termékek</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/orders.html" tabindex="-1" aria-disabled="true">Rendelés</a>
+                    <a class="nav-link" href="/orders.html" tabindex="-1" aria-disabled="true">Rendelés</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="/WIP.html" tabindex="-1" aria-disabled="true">WIP</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Keresés" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Keresés</button>
             </form>
         </div>
     </nav>
-    <!--  menü  -->
-    <H1>
-        Training 360 sablon oldal
-    </H1>
-    <H2>
-        Fantastic Burger
-    </H2>
-    <Ul>
-        <li>sajtburger</li>
-        <li>vega</li>
-        <li>piedone</li>
-    </Ul>
-    <ol>
-        <li>sajt</li>
-        <li>ketchup</li>
-        <li>saláta</li>
-    </ol>
+    <!--  menü vége -->
+    <div class="container">
+        <H1>
+            Üdvözöllek ezen az oldalon!
+        </H1>
+        <H2>
+            Ez az oldal egy tanulói oldal ahova az elsajátított dolgokat alkalmazom.
+        </H2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class=col-2> </div>
+            <div class="col-8">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Étel</th>
+                            <th>Tartalom</th>
+                            <th>Ár</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr class="table">
+                        <td>1</td>
+                        <th>Hamburger</th>
+                        <th>Buci, Saláta, Hagyma...</th>
+                        <th>650 Ft</th>
+                        <th>
+                            <div class="btn-group">
+                                <button class="btn-info">
+                                    <i class="fas fa-sync"></i>
+                                </button>
+                                <button class="btn-danger"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr class="table">
+                        <td>2</td>
+                        <td>Pizza 1 (30)</td>
+                        <td>Pizza alap, Sajt</td>
+                        <td>1000 Ft</td>
+                        <td>
+                            <div class="btn-group">
+                                <button class="btn-info">
+                                    <i class="fas fa-sync"></i>
+                                </button>
+                                <button class="btn-danger"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table">
+                        <td>2</td>
+                        <td>Pizza 2 (30)</td>
+                        <td>Pizza alap, sonka, gomba, sajt</td>
+                        <td>1300 Ft</td>
+                        <td>
+                            <div class="btn-group">
+                                <button class="btn-info">
+                                    <i class="fas fa-sync"></i>
+                                </button>
+                                <button class="btn-danger"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+    </div>
 
-    <a href="http://www.mindmegette.hu/hamburger-hazilag.recept/">
-        Hamburger házilag recept
-    </a>
-    <a href="pages/orders.html">Orders</a>
-    <a target="blank" href="http://www.mindmegette.hu/hamburger-hazilag.recept/">
-        <img src="img/ham.jpeg" alt="kép">
-    </a>
+    <!--  Alsó menü -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.mindmegette.hu/hamburger-hazilag.recept/">Hamburger házilag
+                        recept</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">Információ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/products.html" tabindex="-1" aria-disabled="true">Termékek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/orders.html" tabindex="-1" aria-disabled="true">Rendelés</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="/WIP.html" tabindex="-1" aria-disabled="true">WIP</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--  Alsó m. vége -->
 </body>
 
 </html>
